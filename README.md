@@ -1,5 +1,11 @@
 # python-hide-secrets-in-photos
 The goal of this github repo is to offer Python :snake: scripts for hiding secrets in photos.
+:construction:
+| Methods | Examples |
+| :---: | :---: |
+| Hiding secrets with XOR operator | ![](res/xor180_secret_msg.png) |
+| Hiding secrets in photo metadata | ![](res/metadata_secret_msg.png) <br>The metadata secret message is: <br>"**Hi, this is my secret msg, have fun :-)**" |
+
 
 > [!note]
 > Python scripts here are simple and short, without too many dependencies and without "main", arg parsing...
@@ -50,15 +56,22 @@ Install: simple unzip on Linux
 
 Few examples:
 ```bash
+# Update the 2 following commands according to your needs
+export MYPHOTO=res/metadata_secret_msg.png
+export EXIFTOOL=~/Downloads/exiftool/Image-ExifTool-13.27/exiftool
+
 # Get all metadata information
-exiftool enigma_full.png
-exiftool -v enigma_full.png # verbose mode
+${EXIFTOOL} ${MYPHOTO}
+${EXIFTOOL} -v ${MYPHOTO} # verbose mode
 
 # Remove all metadata
-exiftool -all= enigma_full.png
+${EXIFTOOL} -all= ${MYPHOTO}
 
 # Add an artist field
-exiftool -Artist="Coucou, bonne idee de chercher ici, mais il n'y a pas la reponse ;-) Philippe" enigma_full.png
+${EXIFTOOL} -Artist="Hi, this is my secret msg, have fun :-)" ${MYPHOTO}
+
+# Check metadata updates
+${EXIFTOOL} ${MYPHOTO}
 ```
 
 
@@ -67,6 +80,11 @@ exiftool -Artist="Coucou, bonne idee de chercher ici, mais il n'y a pas la repon
 :construction:
 I use Inkscape for combining photos and illustrations.
 When exporting, you may need to enable "CAIRO_ANTIALIAS_NONE".
+
+
+## Used resources & Credits
+* [res/gary-bendig-6GMq7AGxNbE-unsplash.jpg](res/gary-bendig-6GMq7AGxNbE-unsplash.jpg): Photo by [Gary Bendig](https://unsplash.com/@kris_ricepees?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/raccoon-walking-on-lawn-grass-6GMq7AGxNbE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+* [res/jairo-alzate-sssxyuZape8-unsplash.jpg](res/jairo-alzate-sssxyuZape8-unsplash.jpg): Photo by [Jairo Alzate](https://unsplash.com/@jairoalzate?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/short-coated-brown-puppy-on-white-floor-sssxyuZape8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 
 
 ## TODO list
