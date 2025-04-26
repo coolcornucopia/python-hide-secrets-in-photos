@@ -1,10 +1,19 @@
-# python-hide-secrets-in-photos
-The goal of this github repo is to offer Python :snake: scripts for hiding secrets in photos.
+# Python scripts for hiding secrets in photos
+The goal of this github repo is to offer Python :snake: simple scripts with simple algorithms for hiding secrets in photos.
+
+> [!important]
+> The scripts proposed here only use "simplistic" methods to hide information in photos.
+> There are much more advanced algorithms that exist, but that is not the purpose of this repo.
+> Sorry if you are disappointed when you arrive here, you can always write to me if you have any questions or comments.
+> Have fun :smile:
+
 :construction:
 | Methods | Examples |
 | :---: | :---: |
 | Hiding secrets with XOR operator | ![](res/xor180_secret_msg.png) |
 | Hiding secrets in photo metadata | ![](res/metadata_secret_msg.png) <br>The metadata secret message is: <br>"**Hi, this is my secret msg, have fun :-)**" |
+
+
 
 
 > [!note]
@@ -21,7 +30,7 @@ The goal of this github repo is to offer Python :snake: scripts for hiding secre
 
 
 ## Installation
-Create a virtual env and install dependencies with your favorite tools. Below an simple example based on ```pip```
+Create a virtual env and install dependencies with your favorite tools. Below a simple example based on ```pip```
 
 ```bash
 # Create the virtual env and activate it
@@ -76,6 +85,9 @@ ${EXIFTOOL} ${MYPHOTO}
 
 
 ## Extra tips
+### Ambigrams
+:construction:
+
 ### Adding a photo on top of your photo with secret
 :construction:
 I use Inkscape for combining photos and illustrations.
