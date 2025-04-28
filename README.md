@@ -10,7 +10,7 @@ The goal of this github repo is to offer Python :snake: simple scripts with simp
 :construction:
 | Methods | Examples |
 | :---: | :---: |
-| Hiding secrets with XOR operator | ![](res/xor180_secret_msg.png) |
+| Hiding secrets with XOR operator | Photo A <br> ![](res/xor180_secret_msg.png) <br> Photo B <br> ![](res/xor180_encoded_secret_msg.png) <br>Note: Photo B contains the photo A hidden with a xor operation |
 | Hiding secrets in photo metadata | ![](res/metadata_secret_msg.png) <br>The metadata secret message is: <br>"**Hi, this is my secret msg, have fun :-)**" |
 
 
@@ -68,13 +68,40 @@ pip install -r requirements.txt
 
 ## Hiding secrets with XOR operator
 :construction:
-From https://puzzling.stackexchange.com/questions/28494/this-is-important-i-need-you-to-listen
-https://i.sstatic.net/B7g38.png
-"XOR the image with itself rotated 180°"
 
+The [Exclusive OR](https://en.wikipedia.org/wiki/XOR_gate) operator shortly named **XOR** operator...
+
+The basic idea is the following:
+"XOR the image with itself rotated 180°"
+(blabla)
+
+
+
+To encode the secret message photo into an "encrypted" photo:
 ```bash
-python decode.py enigma_encoded.png enigma_decoded.png
+# Get the usage
+python xor180/encode.py
+# Encode a secret with xor 180
+python xor180/encode.py res/xor180_secret_msg.png res/xor180_encoded_secret_msg.png
 ```
+
+To decode the "encrypted" photo to get the secret message photo:
+```bash
+# Get the usage
+python xor180/decode.py
+# Encode a secret with xor 180
+python xor180/decode.py res/xor180_encoded_secret_msg.png res/xor180_decoded_secret_msg.png
+
+```
+
+> **Tips**
+> The [Space Sheriff Gavan](https://en.wikipedia.org/wiki/Space_Sheriff_Gavan) is named [X-Or](https://fr.wikipedia.org/wiki/X-Or) in French (as the binary operator) so I add a 180°-rotated photo of this character as **a "clue" within the enigma** ;-)
+> ![](res/xor180_wikipedia_Cosplay_Japan_Expo_20060708_Space_Sheriff_Gavan_01_180.jpg)
+
+
+> [!note]
+> These scripts have been tested successfully on the image https://i.sstatic.net/B7g38.png
+> from the enigma [This is important. I need you to listen…](https://puzzling.stackexchange.com/questions/28494/this-is-important-i-need-you-to-listen).
 
 
 ## Hiding secrets in photo metadata
