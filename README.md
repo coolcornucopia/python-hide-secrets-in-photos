@@ -146,6 +146,8 @@ When exporting, you may need to enable "CAIRO_ANTIALIAS_NONE".
 ## Used resources & Credits
 * [res/gary-bendig-6GMq7AGxNbE-unsplash.jpg](res/gary-bendig-6GMq7AGxNbE-unsplash.jpg): Photo by [Gary Bendig](https://unsplash.com/@kris_ricepees?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/raccoon-walking-on-lawn-grass-6GMq7AGxNbE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 * [res/jairo-alzate-sssxyuZape8-unsplash.jpg](res/jairo-alzate-sssxyuZape8-unsplash.jpg): Photo by [Jairo Alzate](https://unsplash.com/@jairoalzate?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/short-coated-brown-puppy-on-white-floor-sssxyuZape8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+* [res/xor180_wikipedia_X-Or.jpg](res/xor180_wikipedia_X-Or.jpg): [X-Or](https://fr.wikipedia.org/wiki/Fichier:X-Or.jpg) on Wikipedia
+* [res/xor180_wikipedia_Cosplay_Japan_Expo_20060708_Space_Sheriff_Gavan_01.jpg](res/xor180_wikipedia_Cosplay_Japan_Expo_20060708_Space_Sheriff_Gavan_01.jpg): [Cosplay Japan Expo 20060708 Space Sheriff Gavan](https://commons.wikimedia.org/wiki/File:Cosplay_Japan_Expo_20060708_Space_Sheriff_Gavan_01.jpg) on Wikipedia, Licence GNU Free Documentation License, Version 1.2 or any later version
 
 
 ## TODO list
