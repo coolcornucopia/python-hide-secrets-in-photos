@@ -1,5 +1,7 @@
 # Python scripts for hiding secrets in photos
 The goal of this github repo is to offer Python :snake: simple scripts with simple algorithms for hiding secrets in photos.
+These scripts can be used to **prepare or decode small puzzles like riddles or to learn programming** :smile:.
+
 
 > [!important]
 > The scripts proposed here only use "simplistic" methods to hide information in photos.
@@ -7,13 +9,11 @@ The goal of this github repo is to offer Python :snake: simple scripts with simp
 > Sorry if you are disappointed when you arrive here, you can always write to me if you have any questions or comments.
 > Have fun :smile:
 
-:construction:
+
 | Methods | Examples |
 | :---: | :---: |
-| Hiding secrets with XOR operator | Photo A <br> ![](res/xor180_secret_msg.png) <br> Photo B <br> ![](res/xor180_encoded_secret_msg.png) <br>Note: Photo B contains the photo A hidden with a xor operation |
-| Hiding secrets in photo metadata | ![](res/metadata_secret_msg.png) <br>The metadata secret message is: <br>"**Hi, this is my secret msg, have fun :-)**" |
-
-
+| [Hiding secrets with XOR operator](#hiding-secrets-with-xor-operator) | **Photo A** <br> ![](res/xor180_secret_msg.png) <br> **Photo B** <br> ![](res/xor180_encoded_secret_msg.png) <br>**Photo B** contains **Photo A**, hidden with a xor operation. **Photo B** can be used for as riddle for instance. |
+| [Hiding secrets in photo metadata](#hiding-secrets-in-photo-metadata) | ![](res/metadata_secret_msg.png) <br>The metadata secret message is: <br>"**Hi, this is my secret msg, have fun :-)**" |
 
 
 > [!note]
@@ -25,29 +25,27 @@ The goal of this github repo is to offer Python :snake: simple scripts with simp
 
 **Table of contents**
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [Python scripts for hiding secrets in photos](#python-scripts-for-hiding-secrets-in-photos)
-  - [Installation](#installation)
-  - [Hiding secrets with XOR operator](#hiding-secrets-with-xor-operator)
-  - [Hiding secrets in photo metadata](#hiding-secrets-in-photo-metadata)
-  - [Extra tips](#extra-tips)
-    - [Ambigrams](#ambigrams)
-    - [Adding a photo on top of your photo with secret](#adding-a-photo-on-top-of-your-photo-with-secret)
-  - [Used resources & Credits](#used-resources--credits)
-  - [TODO list](#todo-list)
-  - [Any questions or comments are welcome :bird:](#any-questions-or-comments-are-welcome-bird)
+- [Installation](#installation)
+- [Hiding secrets with XOR operator](#hiding-secrets-with-xor-operator)
+  - [Tips](#tips)
+- [Hiding secrets in photo metadata](#hiding-secrets-in-photo-metadata)
+- [Extra tips](#extra-tips)
+  - [Ambigrams](#ambigrams)
+  - [Adding a photo on top of your photo with secret](#adding-a-photo-on-top-of-your-photo-with-secret)
+- [Used resources & Credits](#used-resources--credits)
+- [TODO list](#todo-list)
+- [Any questions or comments are welcome :bird:](#any-questions-or-comments-are-welcome-bird)
 
 <!-- /code_chunk_output -->
 
 
-
-
 ## Installation
-* Clone this repo
-* Create a new Python **virtual environnement** and install dependencies with your favorite tools (Note: this step is not mandatory but recommended).
+1. Clone this repo
+2. Create a new Python **virtual environnement** and install dependencies with your favorite tools (Note: this step is not mandatory but recommended).
 <details>
 <summary>Simple virtual env example based on pip</summary>
 
@@ -65,6 +63,7 @@ pip install -r requirements.txt
 ```
 </details>
 
+3. Use instructions from next chapters...
 
 ## Hiding secrets with XOR operator
 :construction:
