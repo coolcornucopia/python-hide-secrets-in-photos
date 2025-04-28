@@ -27,10 +27,29 @@ The goal of this github repo is to offer Python :snake: simple scripts with simp
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
+<!-- code_chunk_output -->
+
+- [Python scripts for hiding secrets in photos](#python-scripts-for-hiding-secrets-in-photos)
+  - [Installation](#installation)
+  - [Hiding secrets with XOR operator](#hiding-secrets-with-xor-operator)
+  - [Hiding secrets in photo metadata](#hiding-secrets-in-photo-metadata)
+  - [Extra tips](#extra-tips)
+    - [Ambigrams](#ambigrams)
+    - [Adding a photo on top of your photo with secret](#adding-a-photo-on-top-of-your-photo-with-secret)
+  - [Used resources & Credits](#used-resources--credits)
+  - [TODO list](#todo-list)
+  - [Any questions or comments are welcome :bird:](#any-questions-or-comments-are-welcome-bird)
+
+<!-- /code_chunk_output -->
+
+
 
 
 ## Installation
-Create a virtual env and install dependencies with your favorite tools. Below a simple example based on ```pip```
+* Clone this repo
+* Create a new Python **virtual environnement** and install dependencies with your favorite tools (Note: this step is not mandatory but recommended).
+<details>
+<summary>Simple virtual env example based on pip</summary>
 
 ```bash
 # Create the virtual env and activate it
@@ -44,6 +63,7 @@ pip install -r requirements.txt
 
 # Leave the virtual env when necessary with the command "deactivate"
 ```
+</details>
 
 
 ## Hiding secrets with XOR operator
@@ -100,7 +120,9 @@ When exporting, you may need to enable "CAIRO_ANTIALIAS_NONE".
 
 
 ## TODO list
-:construction:
+- [ ] Add more ideas (hidden b&w photos in lower bits of the photo, ...)
+- [ ] Better explain how to add a clue photo-based overlay on top of the photo
+- [ ] Add an example of partly xor content
 
 
 ## Any questions or comments are welcome :bird:
