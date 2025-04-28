@@ -102,12 +102,12 @@ python xor180/decode.py res/xor180_encoded_secret_msg.png res/xor180_decoded_sec
 
 
 ## Hiding secrets in photo metadata
-:construction:
+Photo files contain [metadata](https://en.wikipedia.org/wiki/Metadata#File_metadata) like dates, times, comments, licenses, artist names, gps... For simple riddles, you can modify them according to your need :smile:.
 
-https://exiftool.org/ 
-Install: simple unzip on Linux
+There is a simple perl-based tool for that named [exiftool](https://exiftool.org).
+For its installation, simply unzip it.
 
-Few examples:
+Few usage examples:
 ```bash
 # Update the 2 following commands according to your needs
 export MYPHOTO=res/metadata_secret_msg.png
@@ -164,12 +164,15 @@ Megapixels                      : 0.033
 
 ## Extra tips
 ### Ambigrams
-:construction:
+<img src="res/ambigram_enigma.png" alt="res/ambigram_enigma.png" style="width:40%; height:auto;">
+[Ambigram images](https://en.wikipedia.org/wiki/Ambigram) can be very cool in the "Xor 180" case as they can be read even if flipped! There are online tools for creating such nice images like https://www.ambigramania.com/ for instance...
 
 ### Adding a photo on top of your photo with secret
-:construction:
-I use Inkscape for combining photos and illustrations.
-When exporting, you may need to enable "CAIRO_ANTIALIAS_NONE".
+I use [Inkscape](https://inkscape.org) for combining photos and illustrations on top of riddle photo like in the below photo. When exporting, you may need to enable ```CAIRO_ANTIALIAS_NONE``` to avoid modify the content of your encoded photo...
+
+![res/](res/xor180_encoded_secret_msg_with_a_clue.png)
+
+You can use [Pillow/PIL](https://pillow.readthedocs.io), [OpenCV](https://opencv.org), [ImageMagick](https://imagemagick.org/) or any other tool for such photo overlay additions.
 
 
 ## Used resources & Credits
@@ -181,7 +184,7 @@ When exporting, you may need to enable "CAIRO_ANTIALIAS_NONE".
 
 ## TODO list
 - [ ] Add more ideas (hidden b&w photos in lower bits of the photo, ...)
-- [ ] Better explain how to add a clue photo-based overlay on top of the photo
+- [X] Better explain how to add a clue photo-based overlay on top of the photo
 - [ ] Add an example of partly xor content
 
 
