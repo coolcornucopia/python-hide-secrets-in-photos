@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0, 2021-09-20)"
+   sodipodi:docname="xor180_explanations.svg"
+   inkscape:export-filename="/local/home/frq08942/views/perso/coolcornucopia/python-hide-secrets-in-photos/res/xor180_explanations.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="0.44472929"
+     inkscape:cx="536.28129"
+     inkscape:cy="562.13972"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     borderlayer="true"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="15.378431,129.33216"
+       orientation="1,0"
+       id="guide44513" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path10447" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path10426" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path10447-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path10447-2-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path10447-2-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-6-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path10447-2-2-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-6-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path10447-2-2-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-64"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path10447-2-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path10447-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-0-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path10447-4-9" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.235098;stroke-opacity:1;stop-color:#000000"
+       id="rect28050"
+       width="267.99951"
+       height="159.02016"
+       x="-0.19004981"
+       y="0.38551119"
+       inkscape:export-filename="/local/home/frq08942/views/perso/coolcornucopia/python-hide-secrets-in-photos/res/xor180_explanations.png"
+       inkscape:export-xdpi="45.450001"
+       inkscape:export-ydpi="45.450001" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:9.19578px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.229894"
+       x="3.2094119"
+       y="11.523467"
+       id="text3386-0"
+       inkscape:export-filename="/local/home/frq08942/views/perso/coolcornucopia/python-hide-secrets-in-photos/res/xor180_explanations.png"
+       inkscape:export-xdpi="45.450001"
+       inkscape:export-ydpi="45.450001"><tspan
+         sodipodi:role="line"
+         id="tspan3384-3"
+         style="font-weight:bold;fill:#000080;stroke-width:0.229894"
+         x="3.2094119"
+         y="11.523467">ENCODING</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.263393;stroke-opacity:1;stop-color:#000000"
+       id="rect28050-7"
+       width="267.97122"
+       height="199.6221"
+       x="-0.19851837"
+       y="159.37772"
+       inkscape:export-filename="/local/home/frq08942/views/perso/coolcornucopia/python-hide-secrets-in-photos/res/xor180_explanations.png"
+       inkscape:export-xdpi="45.450001"
+       inkscape:export-ydpi="45.450001" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:9.19578px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.229894"
+       x="3.1867938"
+       y="170.50153"
+       id="text3386-0-6"
+       inkscape:export-filename="/local/home/frq08942/views/perso/coolcornucopia/python-hide-secrets-in-photos/res/xor180_explanations.png"
+       inkscape:export-xdpi="45.450001"
+       inkscape:export-ydpi="45.450001"><tspan
+         sodipodi:role="line"
+         id="tspan3384-3-1"
+         style="font-weight:bold;fill:#000080;stroke-width:0.229894"
+         x="3.1867938"
+         y="170.50153">DECODING</tspan></text>
+    <g
+       id="g56297"
+       transform="translate(8.1452958,8.3151808)"
+       inkscape:export-filename="/local/home/frq08942/views/perso/coolcornucopia/python-hide-secrets-in-photos/res/xor180_explanations.png"
+       inkscape:export-xdpi="45.450001"
+       inkscape:export-ydpi="45.450001">
+      <g
+         id="g1830"
+         transform="translate(0.29231784,13.233726)">
+        <image
+           width="67.73333"
+           height="67.73333"
+           preserveAspectRatio="none"
+           xlink:href="xor180_encoded_secret_msg.png"
+           id="image1078-0"
+           x="7.2733679"
+           y="62.76704" />
+        <rect
+           style="fill:#ffffff;stroke:none;stroke-width:0.277193;stop-color:#000000"
+           id="rect1390-2"
+           width="70.788017"
+           height="35.567665"
+           x="5.5206742"
+           y="96.633705" />
+      </g>
+      <g
+         id="g1830-0"
+         transform="translate(85.038819,-22.773727)">
+        <image
+           width="67.73333"
+           height="67.73333"
+           preserveAspectRatio="none"
+           xlink:href="xor180_encoded_secret_msg.png"
+           id="image1078-0-6"
+           x="7.2733679"
+           y="62.76704" />
+        <rect
+           style="fill:#ffffff;stroke:none;stroke-width:0.277193;stop-color:#000000"
+           id="rect1390-2-4"
+           width="70.788017"
+           height="35.567665"
+           x="5.5206742"
+           y="96.633705" />
+      </g>
+      <image
+         width="67.73333"
+         height="33.866665"
+         preserveAspectRatio="none"
+         xlink:href="xor180_secret_msg.png"
+         id="image980"
+         x="7.7193851"
+         y="15.606735" />
+      <image
+         width="67.73333"
+         height="67.73333"
+         preserveAspectRatio="none"
+         xlink:href="xor180_encoded_secret_msg.png"
+         id="image1264"
+         x="177.27959"
+         y="55.996048" />
+      <g
+         id="g1996"
+         transform="translate(-6.0303794,-5.7613553)">
+        <image
+           width="67.73333"
+           height="67.73333"
+           preserveAspectRatio="none"
+           xlink:href="xor180_encoded_secret_msg.png"
+           id="image1078-1"
+           x="98.446465"
+           y="81.977654" />
+        <rect
+           style="fill:#ffffff;stroke:none;stroke-width:0.278239;stop-color:#000000"
+           id="rect1390-0"
+           width="72.549355"
+           height="34.966663"
+           x="94.987572"
+           y="80.877655" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:6.19593px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.154898"
+         x="11.310078"
+         y="12.469805"
+         id="text3386"><tspan
+           sodipodi:role="line"
+           id="tspan3384"
+           style="stroke-width:0.154898"
+           x="11.310078"
+           y="12.469805"><tspan
+   style="font-weight:bold"
+   id="tspan36049">Photo A</tspan> (the secret)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:6.19593px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.154898"
+         x="180.53136"
+         y="51.794983"
+         id="text3386-3"><tspan
+           sodipodi:role="line"
+           id="tspan3384-4"
+           style="stroke-width:0.154898"
+           x="180.53136"
+           y="51.794983"><tspan
+   style="font-weight:bold"
+   id="tspan31957">Photo C</tspan> (the riddle)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:6.19593px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.154898"
+         x="78.904846"
+         y="57.947552"
+         id="text3386-86"><tspan
+           sodipodi:role="line"
+           id="tspan3384-2"
+           style="fill:#0000ff;stroke-width:0.154898"
+           x="78.904846"
+           y="57.947552">xor</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:6.19593px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.154898"
+         x="134.82033"
+         y="90.435127"
+         id="text3386-86-1"><tspan
+           sodipodi:role="line"
+           id="tspan3384-2-0"
+           style="fill:#0000ff;stroke-width:0.154898"
+           x="134.82033"
+           y="90.435127">concatenate</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:6.19593px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.154898"
+         x="80.428535"
+         y="121.03139"
+         id="text3386-86-2"><tspan
+           sodipodi:role="line"
+           id="tspan3384-2-4"
+           style="text-align:center;text-anchor:middle;fill:#0000ff;stroke-width:0.154898"
+           x="80.428535"
+           y="121.03139">180°</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;fill:#0000ff;stroke-width:0.154898"
+           x="80.428535"
+           y="128.77631"
+           id="tspan23752">&amp;</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;fill:#0000ff;stroke-width:0.154898"
+           x="80.428535"
+           y="136.52121"
+           id="tspan17020">copy</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:6.19593px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.154898"
+         x="5.8361282"
+         y="73.052399"
+         id="text3386-8"><tspan
+           sodipodi:role="line"
+           id="tspan3384-5"
+           style="stroke-width:0.154898"
+           x="5.8361282"
+           y="73.052399"><tspan
+   style="font-weight:bold"
+   id="tspan39035">Photo B</tspan> (random here)</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+         d="M 75.69791,31.288939 91.769813,55.380834"
+         id="path10344" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-6)"
+         d="M 75.255666,92.66502 91.90108,56.290535"
+         id="path10344-5"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-6-6)"
+         d="m 160.09378,56.685789 16.46666,31.139035"
+         id="path10344-5-9"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-6-6-1)"
+         d="M 159.84604,127.30696 176.52637,88.844289"
+         id="path10344-5-9-1"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-6-8)"
+         d="M 75.212804,92.875314 91.754682,126.15445"
+         id="path10344-5-7"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <g
+       id="g56317"
+       transform="translate(7.4057024,-30.416584)"
+       inkscape:export-filename="/local/home/frq08942/views/perso/coolcornucopia/python-hide-secrets-in-photos/res/xor180_explanations.png"
+       inkscape:export-xdpi="45.450001"
+       inkscape:export-ydpi="45.450001">
+      <image
+         width="67.73333"
+         height="67.73333"
+         preserveAspectRatio="none"
+         xlink:href="xor180_decoded_secret_msg.png"
+         id="image924"
+         x="92.218811"
+         y="267.54697" />
+      <image
+         width="67.73333"
+         height="67.73333"
+         preserveAspectRatio="none"
+         xlink:href="xor180_encoded_secret_msg.png"
+         id="image1264-6"
+         x="6.9246359"
+         y="220.65895" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:6.19593px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.154898"
+         x="10.176404"
+         y="216.45789"
+         id="text3386-3-9"><tspan
+           sodipodi:role="line"
+           id="tspan3384-4-3"
+           style="stroke-width:0.154898"
+           x="10.176404"
+           y="216.45789"><tspan
+   style="font-weight:bold"
+   id="tspan31957-3">Photo C</tspan> (the riddle)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:6.19593px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.154898"
+         x="94.126617"
+         y="264.10349"
+         id="text3386-3-9-6"><tspan
+           sodipodi:role="line"
+           id="tspan3384-4-3-0"
+           style="stroke-width:0.154898"
+           x="94.126617"
+           y="264.10349"><tspan
+   style="font-weight:bold"
+   id="tspan31957-3-2">Photo D</tspan> (the secret)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:6.19593px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.154898"
+         x="29.408953"
+         y="295.12186"
+         id="text3386-86-2-8"><tspan
+           sodipodi:role="line"
+           id="tspan3384-2-4-2"
+           style="text-align:center;text-anchor:middle;fill:#0000ff;stroke-width:0.154898"
+           x="29.408953"
+           y="295.12186">180°</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;fill:#0000ff;stroke-width:0.154898"
+           x="29.408953"
+           y="302.86676"
+           id="tspan23752-9">&amp;</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;fill:#0000ff;stroke-width:0.154898"
+           x="29.408953"
+           y="310.61169"
+           id="tspan17020-9">copy</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:6.19593px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.154898"
+         x="77.234612"
+         y="301.45847"
+         id="text3386-86-6"><tspan
+           sodipodi:role="line"
+           id="tspan3384-2-2"
+           style="fill:#0000ff;stroke-width:0.154898"
+           x="77.234612"
+           y="301.45847">xor</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-0)"
+         d="m 74.543053,253.14364 16.473806,47.01937"
+         id="path10344-6"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-6-64)"
+         d="m 74.98805,350.54714 16.021347,-49.3219"
+         id="path10344-5-75"
+         sodipodi:nodetypes="cc" />
+      <image
+         width="67.73333"
+         height="67.73333"
+         preserveAspectRatio="none"
+         xlink:href="xor180_encoded_secret_msg.png"
+         id="image1264-8"
+         x="-74.95829"
+         y="-380.92682"
+         transform="scale(-1)" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-0-6)"
+         d="m 39.396878,287.9154 0.07206,24.69305"
+         id="path10344-6-8"
+         sodipodi:nodetypes="cc" />
+    </g>
+  </g>
+</svg>
