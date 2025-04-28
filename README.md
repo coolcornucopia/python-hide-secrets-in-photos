@@ -68,7 +68,9 @@ pip install -r requirements.txt
 
 ## Hiding secrets with XOR operator
 The [Exclusive OR](https://en.wikipedia.org/wiki/XOR_gate) operator shortly named **XOR** operator is used here.
+
 **Encoding** involves performing an XOR operation between the photo containing the secret and another photo of the same size containing a random noise (for example). This random noise has been previously duplicated, flipped (180° rotation), and will be added to the bottom of the result of the xor operation.
+
 **Decoding** consists in doing a XOR operation between the riddle photo and its flipped version (180° rotation).
 
 ![res/xor180_explanations.png](res/xor180_explanations.png)
@@ -90,13 +92,13 @@ python xor180/decode.py res/xor180_encoded_secret_msg.png res/xor180_decoded_sec
 ```
 
 > [!note]
-> These scripts have been tested successfully on the image https://i.sstatic.net/B7g38.png from the StackExchange puzzling enigma named [This is important. I need you to listen…](https://puzzling.stackexchange.com/questions/28494/this-is-important-i-need-you-to-listen):
-> ```$ wget https://i.sstatic.net/B7g38.png -O /tmp/B7g38.png```
+> These scripts have been tested successfully on the image https://i.sstatic.net/B7g38.png from the StackExchange puzzling enigma named [This is important. I need you to listen…](https://puzzling.stackexchange.com/questions/28494/this-is-important-i-need-you-to-listen): 
+> ```$ wget https://i.sstatic.net/B7g38.png -O /tmp/B7g38.png``` 
 > ```$ python xor180/decode.py /tmp/B7g38.png /tmp/B7g38_decoded.png```
 
 ### Tips
 * The [Space Sheriff Gavan](https://en.wikipedia.org/wiki/Space_Sheriff_Gavan) is named [X-Or](https://fr.wikipedia.org/wiki/X-Or) in French (as the binary operator) so I add a 180°-rotated photo of this character as **a "clue" within the enigma** ;-)
-![](res/xor180_wikipedia_Cosplay_Japan_Expo_20060708_Space_Sheriff_Gavan_01_180.jpg)
+![res/xor180_encoded_secret_msg_with_a_clue.png](res/xor180_encoded_secret_msg_with_a_clue.png)
 
 * This puzzle uses a 180° rotation of half of the image because it makes the explanation relatively simple. However, one could use other shapes than horizontal, such as a simple square in the middle of the image, but in this case, a clue would have to be provided to help the player...
 
@@ -165,12 +167,13 @@ Megapixels                      : 0.033
 ## Extra tips
 ### Ambigrams
 <img src="res/ambigram_enigma.png" alt="res/ambigram_enigma.png" style="width:40%; height:auto;">
+
 [Ambigram images](https://en.wikipedia.org/wiki/Ambigram) can be very cool in the "Xor 180" case as they can be read even if flipped! There are online tools for creating such nice images like https://www.ambigramania.com/ for instance...
 
 ### Adding a photo on top of your photo with secret
 I use [Inkscape](https://inkscape.org) for combining photos and illustrations on top of riddle photo like in the below photo. When exporting, you may need to enable ```CAIRO_ANTIALIAS_NONE``` to avoid modify the content of your encoded photo...
 
-![res/](res/xor180_encoded_secret_msg_with_a_clue.png)
+![res/xor180_encoded_secret_msg_with_a_clue.png](res/xor180_encoded_secret_msg_with_a_clue.png)
 
 You can use [Pillow/PIL](https://pillow.readthedocs.io), [OpenCV](https://opencv.org), [ImageMagick](https://imagemagick.org/) or any other tool for such photo overlay additions.
 
