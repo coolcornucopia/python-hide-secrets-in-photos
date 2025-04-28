@@ -189,6 +189,7 @@ You can use [Pillow/PIL](https://pillow.readthedocs.io), [OpenCV](https://opencv
 - [ ] Add more ideas (hidden b&w photos in lower bits of the photo, ...)
 - [X] Better explain how to add a clue photo-based overlay on top of the photo
 - [ ] Add an example of partly xor content
+- [ ] Try xor180 encoding in jpg as output to check the jpg quality impact on the decode operation
 
 
 ## Any questions or comments are welcome :bird:
