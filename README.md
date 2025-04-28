@@ -65,18 +65,15 @@ pip install -r requirements.txt
 
 3. Use instructions from next chapters...
 
+
 ## Hiding secrets with XOR operator
-:construction:
+The [Exclusive OR](https://en.wikipedia.org/wiki/XOR_gate) operator shortly named **XOR** operator is used here.
+**Encoding** involves performing an XOR operation between the photo containing the secret and another photo of the same size containing a random noise (for example). This random noise has been previously duplicated, flipped (180° rotation), and will be added to the bottom of the result of the xor operation.
+**Decoding** consists in doing a XOR operation between the riddle photo and its flipped version (180° rotation).
 
-The [Exclusive OR](https://en.wikipedia.org/wiki/XOR_gate) operator shortly named **XOR** operator...
+![res/xor180_explanations.png](res/xor180_explanations.png)
 
-The basic idea is the following:
-"XOR the image with itself rotated 180°"
-(blabla)
-
-
-
-To encode the secret message photo into an "encrypted" photo:
+To **encode** the secret message photo into an "encrypted" photo:
 ```bash
 # Get the usage
 python xor180/encode.py
@@ -84,23 +81,24 @@ python xor180/encode.py
 python xor180/encode.py res/xor180_secret_msg.png res/xor180_encoded_secret_msg.png
 ```
 
-To decode the "encrypted" photo to get the secret message photo:
+To **decode** the "encrypted" photo to get the secret message photo:
 ```bash
 # Get the usage
 python xor180/decode.py
 # Encode a secret with xor 180
 python xor180/decode.py res/xor180_encoded_secret_msg.png res/xor180_decoded_secret_msg.png
-
 ```
 
-> **Tips**
-> The [Space Sheriff Gavan](https://en.wikipedia.org/wiki/Space_Sheriff_Gavan) is named [X-Or](https://fr.wikipedia.org/wiki/X-Or) in French (as the binary operator) so I add a 180°-rotated photo of this character as **a "clue" within the enigma** ;-)
-> ![](res/xor180_wikipedia_Cosplay_Japan_Expo_20060708_Space_Sheriff_Gavan_01_180.jpg)
-
-
 > [!note]
-> These scripts have been tested successfully on the image https://i.sstatic.net/B7g38.png
-> from the enigma [This is important. I need you to listen…](https://puzzling.stackexchange.com/questions/28494/this-is-important-i-need-you-to-listen).
+> These scripts have been tested successfully on the image https://i.sstatic.net/B7g38.png from the StackExchange puzzling enigma named [This is important. I need you to listen…](https://puzzling.stackexchange.com/questions/28494/this-is-important-i-need-you-to-listen):
+> ```$ wget https://i.sstatic.net/B7g38.png -O /tmp/B7g38.png```
+> ```$ python xor180/decode.py /tmp/B7g38.png /tmp/B7g38_decoded.png```
+
+### Tips
+* The [Space Sheriff Gavan](https://en.wikipedia.org/wiki/Space_Sheriff_Gavan) is named [X-Or](https://fr.wikipedia.org/wiki/X-Or) in French (as the binary operator) so I add a 180°-rotated photo of this character as **a "clue" within the enigma** ;-)
+![](res/xor180_wikipedia_Cosplay_Japan_Expo_20060708_Space_Sheriff_Gavan_01_180.jpg)
+
+* This puzzle uses a 180° rotation of half of the image because it makes the explanation relatively simple. However, one could use other shapes than horizontal, such as a simple square in the middle of the image, but in this case, a clue would have to be provided to help the player...
 
 
 ## Hiding secrets in photo metadata
