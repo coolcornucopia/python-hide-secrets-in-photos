@@ -1,12 +1,14 @@
-import cv2
+"""Decode a XOR+180 encoded photo"""
+
 import sys
+import cv2
 
 # Check parameters
 if len(sys.argv) != 3:
     print(sys.argv[0], ": Decode a XOR+180 encoded photo")
     print("Usual image formats are supported (jpg, png, gif...).")
     print("Usage: python3", sys.argv[0], "file_to_decode.jpg decoded_file.png")
-    exit(1)
+    sys.exit(1)
 
 # Get parameter filenames
 img_input_filename = sys.argv[1]

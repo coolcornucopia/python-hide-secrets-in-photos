@@ -1,13 +1,15 @@
+"""Encode a photo with XOR+180+RANDOM operations"""
+
+import sys
 import cv2
 import numpy as np
-import sys
 
 # Check parameters
 if len(sys.argv) != 3:
     print(sys.argv[0], ": Encode a photo with XOR+180+RANDOM operations")
     print("Usual image formats are supported (jpg, png, gif...).")
     print("Usage: python3", sys.argv[0], "file_to_encode.jpg encoded_file.png")
-    exit(1)
+    sys.exit(1)
 
 # Get parameter filenames
 img_input_filename = sys.argv[1]
