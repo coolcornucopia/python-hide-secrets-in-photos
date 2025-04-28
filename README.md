@@ -160,6 +160,11 @@ Megapixels                      : 0.033
 </details>
 
 
+> [!note]
+> ```exiftool``` creates backup filenames by appending ```_original``` to original files
+> ```$ ls res/*_original```
+
+
 ## Extra tips
 ### Ambigrams
 :construction:
