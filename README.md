@@ -103,6 +103,35 @@ ${EXIFTOOL} -Artist="Hi, this is my secret msg, have fun :-)" ${MYPHOTO}
 ${EXIFTOOL} ${MYPHOTO}
 ```
 
+<details>
+<summary>Metadata content output example</summary>
+
+```bash
+$ exiftool res/metadata_secret_msg.png
+ExifTool Version Number         : 13.27
+File Name                       : metadata_secret_msg.png
+Directory                       : res
+File Size                       : 50 kB
+File Modification Date/Time     : 2025:04:28 07:21:41+02:00
+File Access Date/Time           : 2025:04:28 07:21:41+02:00
+File Inode Change Date/Time     : 2025:04:28 07:21:41+02:00
+File Permissions                : -rw-r--r--
+File Type                       : PNG
+File Type Extension             : png
+MIME Type                       : image/png
+Image Width                     : 256
+Image Height                    : 128
+Bit Depth                       : 8
+Color Type                      : RGB with Alpha
+Compression                     : Deflate/Inflate
+Filter                          : Adaptive
+Interlace                       : Noninterlaced
+Artist                          : Hi, this is my secret msg, have fun :-)
+Image Size                      : 256x128
+Megapixels                      : 0.033
+```
+</details>
+
 
 ## Extra tips
 ### Ambigrams
