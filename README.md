@@ -92,8 +92,8 @@ python xor180/decode.py res/xor180_encoded_secret_msg.png res/xor180_decoded_sec
 ```
 
 > [!note]
-> These scripts have been tested successfully on the image https://i.sstatic.net/B7g38.png from the StackExchange puzzling enigma named [This is important. I need you to listen…](https://puzzling.stackexchange.com/questions/28494/this-is-important-i-need-you-to-listen): 
-> ```$ wget https://i.sstatic.net/B7g38.png -O /tmp/B7g38.png``` 
+> These scripts have been tested successfully on the image https://i.sstatic.net/B7g38.png from the StackExchange puzzling enigma named [This is important. I need you to listen…](https://puzzling.stackexchange.com/questions/28494/this-is-important-i-need-you-to-listen):  
+> ```$ wget https://i.sstatic.net/B7g38.png -O /tmp/B7g38.png```  
 > ```$ python xor180/decode.py /tmp/B7g38.png /tmp/B7g38_decoded.png```
 
 ### Tips
